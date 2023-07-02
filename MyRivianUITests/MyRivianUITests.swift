@@ -2,8 +2,6 @@
 //  MyRivianUITests.swift
 //  MyRivianUITests
 //
-//  Created by Jiji on 7/2/23.
-//
 
 import XCTest
 

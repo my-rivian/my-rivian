@@ -2,8 +2,6 @@
 //  ContentView.swift
 //  MyRivian
 //
-//  Created by Jiji on 7/2/23.
-//
 
 import SwiftUI
 
