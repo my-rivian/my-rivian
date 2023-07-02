@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28746F0B2A523FC90014EA5B /* MyRivianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28746F0A2A523FC90014EA5B /* MyRivianApp.swift */; };
+		28746F0D2A523FC90014EA5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28746F0C2A523FC90014EA5B /* ContentView.swift */; };
+		28746F0F2A523FCA0014EA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28746F0E2A523FCA0014EA5B /* Assets.xcassets */; };
+		28746F132A523FCA0014EA5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28746F122A523FCA0014EA5B /* Preview Assets.xcassets */; };
+		28746F1D2A523FCA0014EA5B /* MyRivianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28746F1C2A523FCA0014EA5B /* MyRivianTests.swift */; };
+		28746F272A523FCA0014EA5B /* MyRivianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28746F262A523FCA0014EA5B /* MyRivianUITests.swift */; };
+		28746F292A523FCA0014EA5B /* MyRivianUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28746F282A523FCA0014EA5B /* MyRivianUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28746F192A523FCA0014EA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28746EFF2A523FC90014EA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28746F062A523FC90014EA5B;
+			remoteInfo = MyRivian;
+		};
+		28746F232A523FCA0014EA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28746EFF2A523FC90014EA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28746F062A523FC90014EA5B;
+			remoteInfo = MyRivian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28746F072A523FC90014EA5B /* MyRivian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRivian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28746F0A2A523FC90014EA5B /* MyRivianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRivianApp.swift; sourceTree = "<group>"; };
+		28746F0C2A523FC90014EA5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28746F0E2A523FCA0014EA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28746F102A523FCA0014EA5B /* MyRivian.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyRivian.entitlements; sourceTree = "<group>"; };
+		28746F122A523FCA0014EA5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28746F182A523FCA0014EA5B /* MyRivianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRivianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28746F1C2A523FCA0014EA5B /* MyRivianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRivianTests.swift; sourceTree = "<group>"; };
+		28746F222A523FCA0014EA5B /* MyRivianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRivianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28746F262A523FCA0014EA5B /* MyRivianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRivianUITests.swift; sourceTree = "<group>"; };
+		28746F282A523FCA0014EA5B /* MyRivianUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRivianUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28746F042A523FC90014EA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28746F152A523FCA0014EA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28746F1F2A523FCA0014EA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28746EFE2A523FC90014EA5B = {
+			isa = PBXGroup;
+			children = (
+				28746F092A523FC90014EA5B /* MyRivian */,
+				28746F1B2A523FCA0014EA5B /* MyRivianTests */,
+				28746F252A523FCA0014EA5B /* MyRivianUITests */,
+				28746F082A523FC90014EA5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28746F082A523FC90014EA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28746F072A523FC90014EA5B /* MyRivian.app */,
+				28746F182A523FCA0014EA5B /* MyRivianTests.xctest */,
+				28746F222A523FCA0014EA5B /* MyRivianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28746F092A523FC90014EA5B /* MyRivian */ = {
+			isa = PBXGroup;
+			children = (
+				28746F0A2A523FC90014EA5B /* MyRivianApp.swift */,
+				28746F0C2A523FC90014EA5B /* ContentView.swift */,
+				28746F0E2A523FCA0014EA5B /* Assets.xcassets */,
+				28746F102A523FCA0014EA5B /* MyRivian.entitlements */,
+				28746F112A523FCA0014EA5B /* Preview Content */,
+			);
+			path = MyRivian;
+			sourceTree = "<group>";
+		};
+		28746F112A523FCA0014EA5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28746F122A523FCA0014EA5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28746F1B2A523FCA0014EA5B /* MyRivianTests */ = {
+			isa = PBXGroup;
+			children = (
+				28746F1C2A523FCA0014EA5B /* MyRivianTests.swift */,
+			);
+			path = MyRivianTests;
+			sourceTree = "<group>";
+		};
+		28746F252A523FCA0014EA5B /* MyRivianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28746F262A523FCA0014EA5B /* MyRivianUITests.swift */,
+				28746F282A523FCA0014EA5B /* MyRivianUITestsLaunchTests.swift */,
+			);
+			path = MyRivianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28746F062A523FC90014EA5B /* MyRivian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28746F2C2A523FCA0014EA5B /* Build configuration list for PBXNativeTarget "MyRivian" */;
+			buildPhases = (
+				28746F032A523FC90014EA5B /* Sources */,
+				28746F042A523FC90014EA5B /* Frameworks */,
+				28746F052A523FC90014EA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRivian;
+			productName = MyRivian;
+			productReference = 28746F072A523FC90014EA5B /* MyRivian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28746F172A523FCA0014EA5B /* MyRivianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28746F2F2A523FCA0014EA5B /* Build configuration list for PBXNativeTarget "MyRivianTests" */;
+			buildPhases = (
+				28746F142A523FCA0014EA5B /* Sources */,
+				28746F152A523FCA0014EA5B /* Frameworks */,
+				28746F162A523FCA0014EA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28746F1A2A523FCA0014EA5B /* PBXTargetDependency */,
+			);
+			name = MyRivianTests;
+			productName = MyRivianTests;
+			productReference = 28746F182A523FCA0014EA5B /* MyRivianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28746F212A523FCA0014EA5B /* MyRivianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28746F322A523FCA0014EA5B /* Build configuration list for PBXNativeTarget "MyRivianUITests" */;
+			buildPhases = (
+				28746F1E2A523FCA0014EA5B /* Sources */,
+				28746F1F2A523FCA0014EA5B /* Frameworks */,
+				28746F202A523FCA0014EA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28746F242A523FCA0014EA5B /* PBXTargetDependency */,
+			);
+			name = MyRivianUITests;
+			productName = MyRivianUITests;
+			productReference = 28746F222A523FCA0014EA5B /* MyRivianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28746EFF2A523FC90014EA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					28746F062A523FC90014EA5B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					28746F172A523FCA0014EA5B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 28746F062A523FC90014EA5B;
+					};
+					28746F212A523FCA0014EA5B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 28746F062A523FC90014EA5B;
+					};
+				};
+			};
+			buildConfigurationList = 28746F022A523FC90014EA5B /* Build configuration list for PBXProject "MyRivian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28746EFE2A523FC90014EA5B;
+			productRefGroup = 28746F082A523FC90014EA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28746F062A523FC90014EA5B /* MyRivian */,
+				28746F172A523FCA0014EA5B /* MyRivianTests */,
+				28746F212A523FCA0014EA5B /* MyRivianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28746F052A523FC90014EA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28746F132A523FCA0014EA5B /* Preview Assets.xcassets in Resources */,
+				28746F0F2A523FCA0014EA5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28746F162A523FCA0014EA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28746F202A523FCA0014EA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28746F032A523FC90014EA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28746F0D2A523FC90014EA5B /* ContentView.swift in Sources */,
+				28746F0B2A523FC90014EA5B /* MyRivianApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28746F142A523FCA0014EA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28746F1D2A523FCA0014EA5B /* MyRivianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28746F1E2A523FCA0014EA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28746F292A523FCA0014EA5B /* MyRivianUITestsLaunchTests.swift in Sources */,
+				28746F272A523FCA0014EA5B /* MyRivianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28746F1A2A523FCA0014EA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28746F062A523FC90014EA5B /* MyRivian */;
+			targetProxy = 28746F192A523FCA0014EA5B /* PBXContainerItemProxy */;
+		};
+		28746F242A523FCA0014EA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28746F062A523FC90014EA5B /* MyRivian */;
+			targetProxy = 28746F232A523FCA0014EA5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28746F2A2A523FCA0014EA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28746F2B2A523FCA0014EA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		28746F2D2A523FCA0014EA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyRivian/MyRivian.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyRivian/Preview Content\"";
+				DEVELOPMENT_TEAM = HCFAA55RSK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.MyRivian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28746F2E2A523FCA0014EA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyRivian/MyRivian.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyRivian/Preview Content\"";
+				DEVELOPMENT_TEAM = HCFAA55RSK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.MyRivian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28746F302A523FCA0014EA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCFAA55RSK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.MyRivianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRivian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyRivian";
+			};
+			name = Debug;
+		};
+		28746F312A523FCA0014EA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCFAA55RSK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.MyRivianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRivian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyRivian";
+			};
+			name = Release;
+		};
+		28746F332A523FCA0014EA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCFAA55RSK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.MyRivianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyRivian;
+			};
+			name = Debug;
+		};
+		28746F342A523FCA0014EA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCFAA55RSK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.MyRivianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyRivian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28746F022A523FC90014EA5B /* Build configuration list for PBXProject "MyRivian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28746F2A2A523FCA0014EA5B /* Debug */,
+				28746F2B2A523FCA0014EA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28746F2C2A523FCA0014EA5B /* Build configuration list for PBXNativeTarget "MyRivian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28746F2D2A523FCA0014EA5B /* Debug */,
+				28746F2E2A523FCA0014EA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28746F2F2A523FCA0014EA5B /* Build configuration list for PBXNativeTarget "MyRivianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28746F302A523FCA0014EA5B /* Debug */,
+				28746F312A523FCA0014EA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28746F322A523FCA0014EA5B /* Build configuration list for PBXNativeTarget "MyRivianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28746F332A523FCA0014EA5B /* Debug */,
+				28746F342A523FCA0014EA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28746EFF2A523FC90014EA5B /* Project object */;
+}
