@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2860CAF72A5279AA00E44341 /* InfluxDBSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2860CAF62A5279AA00E44341 /* InfluxDBSwift */; };
+		2860CAFA2A5279F300E44341 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 2860CAF92A5279F300E44341 /* ComposableArchitecture */; };
 		28746F0B2A523FC90014EA5B /* MyRivianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28746F0A2A523FC90014EA5B /* MyRivianApp.swift */; };
 		28746F0D2A523FC90014EA5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28746F0C2A523FC90014EA5B /* ContentView.swift */; };
 		28746F0F2A523FCA0014EA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28746F0E2A523FCA0014EA5B /* Assets.xcassets */; };
@@ -54,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2860CAFA2A5279F300E44341 /* ComposableArchitecture in Frameworks */,
+				2860CAF72A5279AA00E44341 /* InfluxDBSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +153,10 @@
 			dependencies = (
 			);
 			name = MyRivian;
+			packageProductDependencies = (
+				2860CAF62A5279AA00E44341 /* InfluxDBSwift */,
+				2860CAF92A5279F300E44341 /* ComposableArchitecture */,
+			);
 			productName = MyRivian;
 			productReference = 28746F072A523FC90014EA5B /* MyRivian.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +229,10 @@
 				Base,
 			);
 			mainGroup = 28746EFE2A523FC90014EA5B;
+			packageReferences = (
+				2860CAF52A5279AA00E44341 /* XCRemoteSwiftPackageReference "influxdb-client-swift" */,
+				2860CAF82A5279F300E44341 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 28746F082A523FC90014EA5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -446,8 +458,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
-				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.MyRivian;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.myrivian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -489,8 +501,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
-				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.MyRivian;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.obdgeek.myrivian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -645,6 +657,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2860CAF52A5279AA00E44341 /* XCRemoteSwiftPackageReference "influxdb-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/influxdata/influxdb-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+		2860CAF82A5279F300E44341 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = prerelease/1.0;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2860CAF62A5279AA00E44341 /* InfluxDBSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2860CAF52A5279AA00E44341 /* XCRemoteSwiftPackageReference "influxdb-client-swift" */;
+			productName = InfluxDBSwift;
+		};
+		2860CAF92A5279F300E44341 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2860CAF82A5279F300E44341 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 28746EFF2A523FC90014EA5B /* Project object */;
 }
