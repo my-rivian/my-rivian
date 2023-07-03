@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2860CAF32A5249BF00E44341 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2860CAF42A5249BF00E44341 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		28746F072A523FC90014EA5B /* MyRivian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRivian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28746F0A2A523FC90014EA5B /* MyRivianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRivianApp.swift; sourceTree = "<group>"; };
 		28746F0C2A523FC90014EA5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,8 @@
 		28746EFE2A523FC90014EA5B = {
 			isa = PBXGroup;
 			children = (
+				2860CAF42A5249BF00E44341 /* LICENSE */,
+				2860CAF32A5249BF00E44341 /* README.md */,
 				28746F092A523FC90014EA5B /* MyRivian */,
 				28746F1B2A523FCA0014EA5B /* MyRivianTests */,
 				28746F252A523FCA0014EA5B /* MyRivianUITests */,
