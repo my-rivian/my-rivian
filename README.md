@@ -20,22 +20,20 @@
 
 <a id='installation'></a>
 ## Installation
-The beta test releases are being distributed using the Apple TestFlight application.  If you receive an invitation or have access to a shared download link you can install **My Rivian** from the TestFlight app and share crash reports and screenshots to help improve the aoftware.
+The beta test releases are being distributed using the Apple TestFlight application.  If you receive an invitation or have access to a shared download link you can install **My Rivian** from the TestFlight app and share crash reports and screenshots to help improve the software.
 
 <a id='privacy'></a>
 ## Privacy Notice
 **My Rivian** collects location information that is used to show trips you have taken and where you have charged your vehicle.  **My Rivian** does not collect or share any other personal information or data.
 
-**My Rivian** uses your Vehicle Identification Number (VIN) to uniquely identify your trips and charges and you have trhe option of usong a personal data store or to use a shared data store.
-
-If you choose to use a shared data store, typically for evaluation and testing purpuses, then your location and other vehicle data could be viewed by anyone with access to the same data store that knows your VIN.
+**My Rivian** uses your Vehicle Identification Number (VIN) to uniquely identify your trips and charges and you have the option of usng your personal data store or to use a shared data store.  If you choose to use a shared data store, typically for evaluation and/or testing purposes, then your location and other vehicle data could be viewed by anyone with access to the same data store that also knows your VIN.
 
 <a id='trips'></a>
 ## Trips
 The Trips tab displays a list of the trips made in a selected time period along with a summary of the distance and evergy used.
 
-Each recorded trip can view trip data specific to the trip, including:
-- the trip path displated on a map
+Each recorded trip can view detailed trip data specific to the trip, including:
+- the trip path displayed on a map
 - the elevation profile of the trip
 - start and end points with the ability to add point of interest (POI) details
 - energy used to complete the trip
