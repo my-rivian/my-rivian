@@ -7,10 +7,13 @@ on:
 
 jobs:
   build_with_signing:
-    runs-on: macos-latest
+    runs-on: macos-13
     steps:
       # this was more debug as was curious what came pre-installed
       # GitHub shares this online, e.g. https://github.com/actions/runner-images/blob/macOS-12/20230224.1/images/macos/macos-12-Readme.md
+      - name: Get XCode 15 beta
+        run: sudo xcode-select -s /Applications/Xcode_15.0.app
+        
       - name: Check Xcode version
         run: /usr/bin/xcodebuild -version
 
