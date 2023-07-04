@@ -1,5 +1,7 @@
 name: "TestFlight"
 
+# based on tips from https://www.andrewhoog.com/post/how-to-build-an-ios-app-with-github-actions-2023/
+
 on:
   # manual trigger but change to any supported event
   workflow_dispatch:
@@ -9,8 +11,6 @@ jobs:
   build_with_signing:
     runs-on: macos-13
     steps:
-      # this was more debug as was curious what came pre-installed
-      # GitHub shares this online, e.g. https://github.com/actions/runner-images/blob/macOS-12/20230224.1/images/macos/macos-12-Readme.md
       - name: Get XCode 15 beta
         run: sudo xcode-select -s /Applications/Xcode_15.0.app
         
@@ -20,7 +20,7 @@ jobs:
       - name: Check MacOS version
         run: sw_vers
 
-      - name: checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Install the Apple certificate and provisioning profile
