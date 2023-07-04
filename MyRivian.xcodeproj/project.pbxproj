@@ -49,6 +49,7 @@
 		28746F222A523FCA0014EA5B /* MyRivianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRivianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28746F262A523FCA0014EA5B /* MyRivianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRivianUITests.swift; sourceTree = "<group>"; };
 		28746F282A523FCA0014EA5B /* MyRivianUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRivianUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28D3EE402A53E592002B564B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 		28746F092A523FC90014EA5B /* MyRivian */ = {
 			isa = PBXGroup;
 			children = (
+				28D3EE402A53E592002B564B /* Info.plist */,
 				28746F0A2A523FC90014EA5B /* MyRivianApp.swift */,
 				28746F0C2A523FC90014EA5B /* ContentView.swift */,
 				28746F0E2A523FCA0014EA5B /* Assets.xcassets */,
@@ -442,6 +444,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyRivian/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My Rivian";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -485,6 +488,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyRivian/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My Rivian";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
