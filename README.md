@@ -26,7 +26,7 @@ The beta test releases are being distributed using the Apple TestFlight applicat
 ## Privacy Notice
 **My Rivian** collects location information that is used to show trips you have taken and where you have charged your vehicle.  **My Rivian** does not collect or share any other personal information or data.
 
-**My Rivian** uses a cryptographic hash to uniquely identify your trips and charges in a personal data store that you create and control.  If you choose to use a shared data store, typically for evaluation and/or testing purposes, then your location and other vehicle data could be viewed by anyone with access to the same data store.
+**My Rivian** uses a unique Rivian vehicle identifer to identify your trips and charges in a personal data store that you create and control.  If you choose to use a shared data store, typically for evaluation and/or testing purposes, then your location and other vehicle data could be viewed by anyone with access to the same data store.
 
 <a id='trips'></a>
 ## Trips
