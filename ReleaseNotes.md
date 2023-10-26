@@ -1,31 +1,48 @@
 # Release Notes
 
-## 0.1.2.4
-- stable release for publication to TestFlight
+## 0.2.2.1
+- fixed bug in data store test command
 
 ### What To Test
-- complete onboarding and confirm connections to Rivian account and the evaluation InfluxDB data source
-    - Name: My Rivian Eval (AWS)
-    - URL: https://us-east-1-1.aws.cloud2.influxdata.com
-    - Bucket: my-rivian-eval
-    - Org: My Rivian
-    - Token: YinqPc7tH-BxQNSMtsMCvs8VZRIc2eX2qqQBfUUSlHbXIwN6uRBA3cq5w2iiX3tq_o_B9Rcs84jq-kU_ZUk8KA==
-- record a test trip
+- complete onboarding and confirm connection to your Rivian account and the hosted InfluxDB data source
+- record a trip
     - place vehicle in Drive (or any non-Park gear)
-    - from the Trips ddrop-down menu select 'Record Trip'
-    - screen chnges to 'Trip Starting' and then to 'Trip'
+    - from the Trips drop-down menu select 'Record Trip'
+    - screen changes to 'Starting' and then to 'Trip'
     - verify elapsed timer is counting up and return the gear selector back to Park
-    - after a short while the screen changes to 'Trip Ending' and the trip is logged
-    - you will be returned to the Trips screen and show your first recorded trip
-- record a test charge
+    - after a short while the screen changes to 'Ending' and the trip is logged
+    - you will be returned to the Trips screen and see your first recorded trip
+    - swipe left on the trip to delete it and try recording a real trip
+- record a charge
     - plug in
     - from the Charges ddrop-down menu select 'Record Charge'
-    - screen chnges to 'Charge Starting' and then to 'Charging'
-    - use the Rivian app to stop charging
-    - after a short while the screen changes to 'Charge Ending' and the charge is logged
-    - you will be returned to the Charges screen and show your first recorded charge
+    - screen chnges to 'Starting' and then to 'Charging'
+    - use the Rivian app to stop charging after a few minutes
+    - after a short delay the screen changes to 'Ending' and the charge is logged
+    - you will be returned to the Charges screen and see your first recorded charge
+    - swipe left on the charge to delete it and try recording a real charge
 
 ### Known Issues
-There are many known quirks but I have over 150 trips and 15 charges recorded so things basically work.  I do want to hear about any crashes or failed trips or charges.
+- The new iOS 17 CoreLocation live updates sometimes falls behind and updates lag the actual device position, when this occurs the path for the end of the trip will be a straight line from the last received location update to the trip end point.
 
-One known limitation is the phone will not complete a trip or charge if My Rivian is not active, for trips this isn't much of a problem for trips since you are driving and it can cycle freely throu the recordibng trip states.  But for charges that go on for hours this might not be the case and the charge may not be recorded until you go back to the My Rivian app and see the charge end and be logged.
+## 0.2.1.5
+- merged location live update events to try and solve occasional lagging updates
+- modified onboarding to use a hosted data store, add your own datra store in Settings after confirming correct operation
+
+## 0.2.1.4
+- cached location dids to be written with the vehicle dids
+- saves vehicle list so no delay when app starts to retrieve the list from Rivian (will require logging back into your account) 
+
+## 0.2.1.3
+- added moving map view to trip recording to display the reported device location (see known issues for details)
+- fixed trips/charges lists to only reload from data store when the period changes or a refresh action was requested
+
+## 0.2.1.2
+- fix for charge recording to continue when not in the foreground
+- added settings to disable the idle timeout for trips and charges (Settings.General)
+- now store vehicle GPS and device GPS data and select which is used for the trip path display
+- added maximum power field to charge detail display
+
+## 0.2.1.1 (internal)
+- remove course values of -1
+- fix for trip recording to continue when not in the foreground
