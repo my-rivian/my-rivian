@@ -1,7 +1,7 @@
 # Release Notes
 
-## 0.2.2.1
-- restored missing min/max elevation on trips
+## 0.2.2.3
+- updated to TCA 1.3
 
 ### What To Test
 - complete onboarding and confirm connection to your Rivian account and the hosted InfluxDB data source
@@ -24,6 +24,9 @@
 
 ### Known Issues
 - The new iOS 17 CoreLocation live updates sometimes falls behind and updates lag the actual device position, when this occurs the path for the end of the trip will be a straight line from the last received location update to the trip end point.
+
+## 0.2.2.2
+- restored missing min/max elevation on trips
 
 ## 0.2.2.1
 - fixed bug in data store test command
