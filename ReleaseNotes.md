@@ -1,5 +1,36 @@
 # Release Notes
 
+## 0.2.3.6
+- reverted charge recoding back to original deisgn (requires foreground operation for now)
+- improved charge detail menu since it only has one item in it
+- onboarding/login improvements
+- use delegates to update vehicle/data store names in settings feature
+- now supports multiple vehicles (if anyone has two R1s please try this out)
+- changed trip elevation code to use the trip ID and not the trip start/end times
+- added vehicle odometer/SoC/battery capacity to the vehicle inspector
+- added Rivian account 2FA support
+- trips/charges refresh only on completed trip/charge
+- updated help screens
+- fixed POI not presented for trip starting location bug
+- allow deletion of trips/charges by vehicle from current data store (Settings.Vehicles)
+- reduced trips/charges summary field height by incorporating the count in the disclosure group text
+- fixed unneeded trip/charge refresh after using local menu
+- set reasonable default settings
+    - General: Metric (false)
+    - General: Use Vehicle For Path Data: (false)
+    - General: Disable Trip Idle Timer (false)
+    - General: Disable Charge Idle Time (false)
+    - General.Map Styles: Use Trip Map Type (standard)
+    - General.Map Styles: Use Charge Map Type (standard)
+    - General.Points Of Interest: Threshold (50m or 164')
+    - General.Advanced: Path Threshold (5m or 16')
+    - General.Advanced: Pretty Print Backups (true)
+- trElevationStart/trElevationEnd missing from data store regression fixed
+- cleaned up trip/charges/did types
+- changing data store will now reload trips/charges from the new data store
+- updated Rivian API login errors with better diagnostic
+- invalidate trips/charges when Rivian account is logged out
+
 ## 0.2.2.3
 - updated to TCA 1.3
 
