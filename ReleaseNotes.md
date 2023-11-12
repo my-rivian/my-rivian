@@ -1,6 +1,10 @@
 # Release Notes
 
-## 0.2.4.5
+## 0.2.4.7
+- removed unused speed code from trip recording
+- fixed missing range added regression in recorded charges
+- fix login bug when no name has been defined for a vehicle
+- added model and exterior color to Rivian vehicle detail
 - flush trips and charges after a data store restore operation
 - fixed crash in Trips Monthly Efficiency when no trips were recorded
 - removed Start At field in charge detail since the time is in the title
