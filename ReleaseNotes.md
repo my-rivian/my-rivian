@@ -1,5 +1,15 @@
 # Release Notes
 
+## 0.2.4.10
+- fix for long vehicle/data store names hidding the trip/charge menu button
+- renamed default hosted data store to 'My Rivian' (shorter and less likely to be truncated)
+- fix for missing range added field in charge detail
+- fix for bug not detecting a DCFC charge
+- added 5 minute record charge timeout
+- added distance to empty tp logged charge data
+- eliminated unnecessary refresh operations for trip/charge graphs
+- added charge limit and distance to empty charging view
+
 ## 0.2.4.7
 - removed unused speed code from trip recording
 - fixed missing range added regression in recorded charges
