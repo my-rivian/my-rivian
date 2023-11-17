@@ -45,6 +45,7 @@ Each recorded trip can view detailed trip data specific to the trip, including:
 <a id='charges'></a>
 ## Charges
 The Charges tab displays a list of charges in the selected period along with the energy added to your Rivian:
+
 ![image](https://github.com/my-rivian/my-rivian/assets/142558992/706409a5-fac7-43b3-bc58-ae1b5099a0a3)
 
 You can select a charge from the Charges list and see the details of the charge, including:
