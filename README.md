@@ -30,7 +30,8 @@ The beta test releases are being distributed using the Apple TestFlight applicat
 
 <a id='trips'></a>
 ## Trips
-The Trips tab displays a list of the trips made in a selected time period along with a summary of the distance and evergy used.
+The Trips tab displays a list of the trips made in a selected time period along with a summary of the distance and evergy used:
+![image](https://github.com/my-rivian/my-rivian/assets/142558992/aa84c3f3-9b8d-4ec4-bd2e-00a17a6ef301)
 
 Each recorded trip can view detailed trip data specific to the trip, including:
 - the trip path displayed on a map
@@ -38,14 +39,19 @@ Each recorded trip can view detailed trip data specific to the trip, including:
 - start and end points with the ability to add point of interest (POI) details
 - energy used to complete the trip
 
+![image](https://github.com/my-rivian/my-rivian/assets/142558992/78da5c15-44bd-4c9a-9168-ef7313473df7)
+
 <a id='charges'></a>
 ## Charges
-The Charges tab displays a list of charges in the selected period along with the energy added to your Rivian.
+The Charges tab displays a list of charges in the selected period along with the energy added to your Rivian:
+![image](https://github.com/my-rivian/my-rivian/assets/142558992/706409a5-fac7-43b3-bc58-ae1b5099a0a3)
 
 You can select a charge from the Charges list and see the details of the charge, including:
 - location, duration, and charger type
 - power and energy data
 - high voltage battery details such as the State pf Charge (SoC)
+
+![image](https://github.com/my-rivian/my-rivian/assets/142558992/4167ded9-a358-42cd-a724-dcd2ed295fcc)
 
 <a id='settings'></a>
 ## Settings
@@ -56,3 +62,6 @@ The Settings tab manages the selection of vehicles, data stores, and other usefu
 - manage location data
 - help for various **My Rivian** features
 - **My Rivian** version and other application information
+
+![image](https://github.com/my-rivian/my-rivian/assets/142558992/ba37ce9b-0082-416e-8693-dd0bfa3ddc2a)
+
