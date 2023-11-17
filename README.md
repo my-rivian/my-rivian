@@ -31,6 +31,7 @@ The beta test releases are being distributed using the Apple TestFlight applicat
 <a id='trips'></a>
 ## Trips
 The Trips tab displays a list of the trips made in a selected time period along with a summary of the distance and evergy used:
+
 ![image](https://github.com/my-rivian/my-rivian/assets/142558992/aa84c3f3-9b8d-4ec4-bd2e-00a17a6ef301)
 
 Each recorded trip can view detailed trip data specific to the trip, including:
