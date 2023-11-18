@@ -16,7 +16,8 @@
 <a id='requirements'></a>
 ## Requirements
 - Apple iPhone running iOS 17.0 or later
-- InfluxDB data store to supply vehicle data (you can create your own at [Influx Cloud](https://cloud2.influxdata.com/signup))
+- Rivian R1T or R1S
+- an optional InfluxDB data store to host the collected vehicle data should you not use the default data store provided with **My Rivian** (you can create your own at [Influx Cloud](https://cloud2.influxdata.com/signup))
 
 <a id='installation'></a>
 ## Installation
@@ -26,7 +27,7 @@ The beta test releases are being distributed using the Apple TestFlight applicat
 ## Privacy Notice
 **My Rivian** collects location information that is used to show trips you have taken and where you have charged your vehicle.  **My Rivian** does not collect or share any other personal information or data.
 
-**My Rivian** uses a unique Rivian vehicle identifer to identify your trips and charges in a personal data store that you create and control.  If you choose to use a shared data store, typically for evaluation and/or testing purposes, then your location and other vehicle data could be viewed by anyone with access to the same data store.
+**My Rivian** uses a unique Rivian vehicle identifer to identify your trips and charges in a personal data store that you create and control.  If you choose to use a shared data store, typically for evaluation and/or testing purposes, then your past location and other vehicle data could be viewed by anyone with access to the same data store.
 
 <a id='trips'></a>
 ## Trips
