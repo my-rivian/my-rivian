@@ -1,5 +1,15 @@
 # Release Notes
 
+## 0.2.4.12
+- retries starting CoreLocation live updates when no location updates are received within a few seconds (workaround)
+- added time remaining to active charge screen
+- location manager code clean up and single reverse geocoding symbol in status bar
+- better auto sizing of data store/vehicle names for different iPhone screen sizes
+- account credentials and OTP code auto verify during the login process
+- added a 5 minute timeout to start a trip
+- chain multiple trips if there is less than 5 minutes since the previous trip
+- lock screen and dynamic island show trip start countdowns
+
 ## 0.2.4.10
 - fix for long vehicle/data store names hidding the trip/charge menu button
 - renamed default hosted data store to 'My Rivian' (shorter and less likely to be truncated)
