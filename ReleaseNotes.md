@@ -1,5 +1,13 @@
 # Release Notes
 
+## 0.2.5.2
+- Settings restore will trigger a refresh of the Trips/Chrgesviews
+- the charge idle timer is now disabled by default (since charging does not yet have background mode support)
+- added the timeout progress to the dyanmic island when waiting for a new trip to start
+- improved map display when recording a trip (map top is now your heading)
+- added rated distance to the Trips summary
+- recorded trips/charges data store are now cached and written later if the initial write attempt failed
+
 ## 0.2.4.12
 - retries starting CoreLocation live updates when no location updates are received within a few seconds (workaround)
 - added time remaining to active charge screen
