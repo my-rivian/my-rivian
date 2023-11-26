@@ -1,6 +1,8 @@
 # Release Notes
 
-## 0.2.5.2
+## 0.2.5.3
+- charge recording now dynamically adjusts sampling 
+- status bar error counts displayerd as a badge on the vehicle/charge/network icons
 - Settings restore will trigger a refresh of the Trips/Chrgesviews
 - the charge idle timer is now disabled by default (since charging does not yet have background mode support)
 - added the timeout progress to the dyanmic island when waiting for a new trip to start
