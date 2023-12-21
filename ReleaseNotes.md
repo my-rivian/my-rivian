@@ -1,5 +1,39 @@
 # Release Notes
 
+## 0.2.6.7
+- updated trip Live Activities and Dynamic Island displayed info
+- remove the Live Activities/Dynamic Island displays if the app is terminated
+- removed unnecessaery DispatchQueue.main.async wrappers
+- option to request new OTP code or cancel in Rivian account login
+- recoded phantom drain for better graph and data
+- added rated range to the trip dashboard
+- improved axis labels in weather detail graphs
+- fix for bug with negative speeds
+
+## 0.2.6.3
+- windowed trip elevation data to limit size of the query
+- fixed redundant data store path/elevation queries in the trip detail view
+- streamlined trip/charge weather recording
+- added support for WeatherKit WeatherAttribution
+- trip/charge weather data
+- trip dashboard displays weather, headwind, wind and heading
+- view weather during the trip/charge from the detailed view
+- modified filtering of location and elevation data
+
+## 0.2.5.12
+- rewrite of charge recording code
+- rewrite of trip recording code
+- improved reporting of URL errors
+- improved reported detail in data store exception objects
+- improved vehicle/charging data request in recording trips and charges
+- fix for bug in Settings.General with default values
+- shows the email used to log in the Rivian account
+- login email field is red if not a valid email address
+- moved map camera position code so no course information is required
+- added link to build/testing notes in Settings.About
+- added links to commonly used GitHub guides in Settings.Resources
+- added link to GitHub discussions in Settings.Resources
+  
 ## 0.2.5.3
 - charge recording now dynamically adjusts sampling 
 - status bar error counts displayerd as a badge on the vehicle/charge/network icons
